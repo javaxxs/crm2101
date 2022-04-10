@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .t1{
+      color: red;
+      size: 30px;
+    }
+  </style>
+</head>
+<body>
+<center>
+  <font class="t1">用户名或密码不正确</font><br>
+  <font class="t1">请重新输入</font><br>
+  <form action="/myWeb/login" method="post">
+    <table border="2">
+      <tr>
+        <td>登录名</td>
+        <td><input type="text" name="userName"/> </td>
+      </tr>
+      <tr>
+        <td>密码</td>
+        <td><input type="password" name="password"/></td>
+      </tr>
+      <tr>
+        <td><input type="submit" value="登录"/></td>
+        <td><input type="reset"/> </td>
+      </tr>
+    </table>
+  </form>
+</center>
+</body>
+</html>
